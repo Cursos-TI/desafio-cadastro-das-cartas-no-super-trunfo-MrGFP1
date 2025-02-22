@@ -10,7 +10,7 @@ int main() {
 
     int carta;
     char estado[20];
-    char codigo [20];
+    char codigo[20];
     char cidade [20];
     float populacao;
     int pontos;
@@ -25,7 +25,7 @@ int main() {
     scanf("%d", &carta);
 
     printf("Digite o Estado: \n");
-    scanf("%s", &estado);
+    scanf(" %s", &estado);
 
     printf("Digite o Nome Da Cidade: \n");
     scanf(" %s", &cidade);
